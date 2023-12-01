@@ -98,7 +98,7 @@ The tests will check a template or set of templates for coding best practices us
 
 ## Terraform
 
-All below test examples have an assumption for the working directory - should be [IAC/Terraform/test/terraform](./../IAC/Terraform/test/terraform/)
+All below test examples have an assumption for the working directory - should be [IAC/Terraform/test/terraform](./../IAC/Terraform/test/terraform/) New to test.
 
 ### End to End tests with Terratest
 
