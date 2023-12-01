@@ -12,8 +12,6 @@
             "mode": "test",
             "program": "${workspaceFolder}/IAC/Terraform/test/terraform",
             "args": ["test.go"],//["tmp_test.go"],
-            //"env": {"TF_VAR_client_id":"c675684e-d799-4a94-9285-cf6d807e0184",
-            //        "TF_VAR_client_secret":"qM~swsEUg7UdF7Yl-9zMjVX.6vl3QC_Cvk"},
             "showLog" : true
         }
     ]
