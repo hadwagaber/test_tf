@@ -37,6 +37,8 @@ jobs:
       actions: read
       contents: write
       security-events: write
+      checks: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v4
         with:
