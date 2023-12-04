@@ -34,11 +34,11 @@ jobs:
     name: "Validate"
     runs-on: ubuntu-latest
     permissions:
-      actions: read
+      actions: write
       contents: write
       security-events: write
       checks: write
-      pull-requests: write
+      pull-requests: write     
     steps:
       - uses: actions/checkout@v4
         with:
