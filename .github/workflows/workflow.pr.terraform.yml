@@ -67,7 +67,7 @@ jobs:
     secrets:
       azureEnviromentCredentials: ${{ secrets.AZURE_CREDENTIALS }}
     permissions:
-      actions: write
+      actions: read
       contents: write
       security-events: write
       pull-requests: write
