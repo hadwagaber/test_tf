@@ -67,11 +67,11 @@ jobs:
     secrets:
       azureEnviromentCredentials: ${{ secrets.AZURE_CREDENTIALS }}
     permissions:
-      actions: write
-      contents: write
-      security-events: write
-      pull-requests: write
-      checks: write
+      actions: write-all
+      contents: write-all
+      security-events: write-all
+      pull-requests: write-all
+      checks: write-all
 
   NewEnvironment:
     needs: [Setup, Validate]
